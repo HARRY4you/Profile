@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Thirty - Official Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; 
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: #fff;
+        }
+        .hero {
+            background: url('your-image.jpg') no-repeat center center/cover;
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .hero h1 { font-size: 2.5rem; }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 15px;
+            background: #ff4500;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .social-links a {
+            margin: 10px;
+            text-decoration: none;
+            color: #ff4500;
+            font-size: 1.5rem;
+        }
+        .contact {
+            margin-top: 30px;
+        }
+        footer {
+            margin-top: 30px;
+            padding: 10px;
+            background: #222;
+        }
+        .embed {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>Listen to My Latest Track - LSD</h1>
+        <a href="https://open.spotify.com/track/3nd32zmZAcddtEa234ycuJ?si=45672a2da7684759" class="btn">Listen Now</a>
+    </div>
+    
+    <div class="embed">
+        <h2>Embedded Player</h2>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3nd32zmZAcddtEa234ycuJ?utm_source=generator" width="560" height="315" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+    
+    <div class="social-links">
+        <h2>Follow Me on Socials</h2>
+        <a href="https://www.instagram.com/1thirtymusic?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a>
+    </div>
+    
+    <div class="contact">
+        <h2>Business Inquiries</h2>
+        <p>For collaborations or bookings, contact me at:</p>
+        <p><strong>1thirtymusic@gmail.com</strong></p>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 One Thirty. All rights reserved.</p>
+    </footer>
+</body>
+</html>
